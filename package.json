@@ -1,0 +1,33 @@
+{
+  "name": "farm-js-plugin-stylus",
+  "version": "0.0.1",
+  "description": "Lightweight plugin to use Stylus in @farmfe/farm",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cd playground && npm run dev",
+    "publish": "bumpp patch -y && npm publish"
+  },
+  "keywords": [],
+  "author": "Joker Dark Knight",
+  "license": "ISC",
+  "workspaces": [
+    "./playground"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdkcoder/farm-js-plugin-stylus",
+    "directory": ""
+  },
+  "dependencies": {
+    "stylus": "latest"
+  },
+  "devDependencies": {
+    "@farmfe/cli": "latest",
+    "@farmfe/core": "latest",
+    "@farmfe/js-plugin-dts": "latest",
+    "@types/node": "latest",
+    "cross-env": "latest",
+    "bumpp": "latest"
+  }
+}

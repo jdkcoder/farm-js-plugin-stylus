@@ -1,0 +1,22 @@
+{
+  "name": "playground",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "farm start",
+    "start": "farm start",
+    "build": "farm build",
+    "preview": "farm preview",
+    "clean": "farm clean"
+  },
+  "dependencies": {
+    "farm-js-plugin-stylus": "latest",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@farmfe/cli": "latest",
+    "@farmfe/core": "latest",
+    "@vitejs/plugin-vue": "latest",
+    "core-js": "latest"
+  }
+}
